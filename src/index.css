@@ -8,35 +8,47 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* CMCD Brand Colors - Professional Teal Palette */
+    --background: 194 31% 97%;
+    --foreground: 188 100% 21%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 188 100% 21%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 188 100% 21%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 188 100% 21%;
+    --primary-foreground: 194 31% 97%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 174 37% 64%;
+    --secondary-foreground: 188 100% 21%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 194 31% 94%;
+    --muted-foreground: 188 50% 35%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 174 37% 64%;
+    --accent-foreground: 188 100% 21%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 194 31% 88%;
+    --input: 194 31% 88%;
+    --ring: 188 100% 21%;
 
-    --radius: 0.5rem;
+    /* Design System Extensions */
+    --primary-light: 174 37% 64%;
+    --primary-extra-light: 194 31% 97%;
+    --success: 142 76% 36%;
+    --warning: 38 92% 50%;
+    --info: 174 37% 64%;
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(188 100% 21%) 0%, hsl(174 37% 64%) 100%);
+    --gradient-secondary: linear-gradient(180deg, hsl(194 31% 97%) 0%, hsl(194 31% 94%) 100%);
+
+    --radius: 0.75rem;
 
     --sidebar-background: 0 0% 98%;
 
